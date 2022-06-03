@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999;
+    background-color: rgb(216, 215, 216);
+    align-items: center;
+
+}
+
+.middleHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightHead {
+    display: flex;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.rightHead img {
+    height: 50px;
+    margin: 10px;
+    width: 50px;
+}
+
+.middleHead img {
+    height: 50px;
+}
+
+.mainContentContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.leftContent {
+    width: 60vw;
+}
+
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 10px 5px;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.userIcon {
+    display: flex;
+    align-items: center;
+}
+
+.userName {
+    margin-left: 10px;
+}
+
+.userIcon img {
+    height: 80px;
+    border-radius: 100%;
+    border: 3px solid palevioletred;
+
+}
+
+.storyContainer {
+    padding: 10px;
+    border: 3px solid grey;
+    border-radius: 4px;
+    margin: 20px;
+    height: 130px;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.storyContainer img {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 3px solid palevioletred;
+    object-fit: fill;
+}
+
+.story1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.story2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.story3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.story4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.postContainer {
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.postPicture img {
+    width: -webkit-fill-available;
+}
+
+.postInterraction {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postInterraction2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.postInterraction3 {
+    cursor: pointer;
+}
+
+.commentingOnPost {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid grey;
+    align-items: center;
+    padding-bottom: 70px;
+    border-bottom: 5px solid black;
+
+}
+
+.likes {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 0.8em;
+    color: rgb(150, 150, 150);
+}
+
+.smiley {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.smiley input {
+    width: 100%;
+}
+
+.commentingSection {
+    margin-left: 20px;
+}
+
+.commentingSection input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+
+}
+
+.postDescription {
+    margin: 10px 5px 10px 5px;
+}
+
+.postedComments {
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-top: 4px dotted grey;
+}
+
+.postinButton button {
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: rgb(212, 163, 172);
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.postinButton button:hover {
+    color: rgb(143, 107, 113);
+}
+
+.rightSection {
+    width: 100%;
+    position: sticky;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: sticky;
+    height: 100vh;
+
+
+}
+
+.rightFirstLine {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.name {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.changeUser {
+    margin-left: 50px;
+    color: rgb(51, 51, 221);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rightFirstLine img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 3px solid palevioletred;
+
+}
+
+.rightSecondLine {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rightSecondLine {
+    padding-top: 30px;
+}
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestions1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.suggestions1 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 3px solid palevioletred;
+}
+
+.suggestions1 span {
+    margin-left: 10px;
+}
+
+.postedComments {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 850px) {
+    .rightSection {
+        display: none;
+    }
+
+    .leftContent {
+        width: 100%;
+    }
+
+
+
+
+}
